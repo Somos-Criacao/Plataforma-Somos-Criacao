@@ -20,7 +20,7 @@ html {
     background: rgb(159, 207, 168);
 }
 
-.logo a img {
+.logo img {
     width: 8vh;
     height: 8vh;
     margin-left: 3vh;
@@ -33,7 +33,17 @@ html {
 }
 
 .logo {
-    width: 10%;
+    width: 89px;
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .indice a {
@@ -42,7 +52,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
+    width: 16%;
     height: 25px;
     font-size: 18px;
 }
@@ -73,14 +83,11 @@ html {
     background: rgb(255, 255, 255);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    white-space: nowrap;
-    animation: slide 15s linear infinite;
     height: 72vh;
     display: flex;
     justify-content: center;
     font-family: 'LuckyBones', sans-serif;
 }
-
 
 .sobre {
     height: 93vh;
@@ -121,7 +128,7 @@ html {
 
 .logobaixo img {
     width: 10vh;
-    height: 10vh;
+    height: auto;
 }
 
 .logobaixo {
@@ -134,6 +141,7 @@ html {
     width: 50%;
     height: 55vh;
     margin-right: 8vh;
+    text-align: center;
 }
 
 .imgesq img {
@@ -149,64 +157,118 @@ html {
     height: 80vh;
 }
 
-.logosomos img {
-    width: 10vh;
-    height: 10vh;
-}
-
-.logosomos {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-}
-
-.somos {
+.pag3 {
     width: 100%;
-    height: 100%;
-    margin-top: 5vh;
+    height: 65vh;
+}
+
+.bloc {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.parte1 {
-    width: 60vh;
-    height: 30vh;
-    font-size: 19px;
+.bloc1 {
+    width: 50vh;
+    height: 50vh;
+    margin-top: 8vh;
+    border-radius: 4px;
+    background: #80D690;
 }
 
-.parte2 {
-    width: 60vh;
-    height: 15vh;
-    font-size: 19px;
+.bloc2 {
+    width: 50vh;
+    height: 50vh;
+    margin-left: 15vh;
+    margin-top: 8vh;
+    border-radius: 4px;
+    background: #80D690;
 }
 
-.telaesq {
-    width: 60vh;
-    position: absolute;
-    margin-right: 90vh;
+.bloc3 {
+    width: 50vh;
+    height: 50vh;
+    margin-left: 15vh;
+    margin-top: 8vh;
+    border-radius: 4px;
+    background: #80D690;
 }
 
-.teladir {
+.missao {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.teladir img {
-    width: 100%;
-    border-radius: 2vh;
-    margin-top: 2vh;
-}
-
-.sup1 {
-    display: flex;
-    align-items: center;
-}
-
-.tit1 h2 {
+    margin-top: 3vh;
+    color: #FFE368;
+    font-size: 30px;
     font-family: 'Luckybones', sans-serif;
-    font-size: 40px;
+}
+
+.visao {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    color: #FFE368;
+    font-size: 30px;
+    font-family: 'Luckybones', sans-serif;
+}
+
+.valores {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    color: #FFE368;
+    font-size: 30px;
+    font-family: 'Luckybones', sans-serif;
+}
+
+.misesc {
+    width: 50vh;
+    height: 25vh;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 18px;
+}
+
+.mis2 {
+    margin-top: 5vh;
+}
+
+.misdir {
+    width: 50vh;
+    height: 25vh;
+    justify-content: center;
+    margin-top: 6vh;
+    font-size: 18px;
+    text-align: center;
+}
+
+.val {
+    width: 50vh;
+    height: 25vh;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 9vh;
+    font-size: 20px;
+}
+
+.pag4 {
+    width: 100%;
+    height: 96vh;
+    padding-top: 35vh;
+    background-image: url(https://trello.com/1/cards/64c2e17ac4bdb6e2971fd56d/attachments/64c2e17cc15bc04456df6b65/previews/64c2e17ec15bc04456df7790/download/imagem.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pag4text {
+    font-size: 30px;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+    text-align: center;
+    font-family: 'LuckyBones', sans-serif;
+    width: 100%;
+    height: 15vh;
 }
