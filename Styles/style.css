@@ -450,3 +450,26 @@ html {
     padding-top: 2vh;
     color: #80D690;
 }
+
+/*----SEGUNDA PÁGINA BRAÇOS DE AÇÃO----*/
+
+.imginicbraco {
+    padding-top: 40vh;
+    background-image: url('https://trello.com/1/cards/64c2e295f7c643b21283b051/attachments/64c2e2974fc09493c0c9e46c/previews/64c2e2994fc09493c0c9e838/download/imagem.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient-text2 {
+    font-size: 24px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 60vh;
+    width: 100vh;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 4vh;
+    font-family: 'LuckyBones', sans-serif;
+}
