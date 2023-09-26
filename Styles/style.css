@@ -272,3 +272,181 @@ html {
     width: 100%;
     height: 15vh;
 }
+
+.pag5 {
+    width: 100%;
+    height: 125vh;
+    background: rgb(247, 247, 247);
+}
+
+.pag5textcima {
+    display: flex;
+    justify-content: center;
+}
+
+.tit5 {
+    display:flex;
+    justify-content: center;
+    padding-top: 6vh;
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+}
+
+.mordomia {
+    width: 40vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.mordotit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.mordotextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.mordotextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
+
+.heranca {
+    width: 40vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.herantit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.herantextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.herantextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
+
+.amor {
+    width: 50vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.amortit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.amortextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.amortextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
+
+.valorespag5 {
+    width: 50vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.valtit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.valtextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.valtextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
+
+.pag5textbaixo {
+    display: flex;
+    justify-content: center;
+}
+
+.voz {
+    width: 50vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.voztit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.voztextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.voztextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
+
+.revelacao {
+    width: 50vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.revtit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.revtextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.revtextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
+
+.esperanca {
+    width: 50vh;
+    padding-top: 5vh;
+    margin-left: 5vh;
+}
+
+.esptit {
+    font-family: 'LuckyBones', sans-serif;
+    font-size: 20px;
+    color: #10726C;
+}
+
+.esptextcima {
+    padding-top: 1vh;
+    color: #7BA884;
+}
+
+.esptextbaixo {
+    padding-top: 2vh;
+    color: #80D690;
+}
